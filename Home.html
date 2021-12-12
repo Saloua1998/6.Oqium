@@ -14,27 +14,20 @@
       href="./img/favicon_oqium.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="./Navbar/nav.css">
     <title>Oqium</title>
-  </head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("./Navbar/nav.html");
+        });
+        </script>  
+</head>
   <body>
     <header>
-        <nav>
-            <p>FREE SHIPPING & RETURNS NL.
-                <img class="icon" src="./img/star-solid.svg" alt=""><img class="icon" src="./img/star-solid.svg" alt=""><img class="icon" src="./img/star-solid.svg" alt=""><img class="icon" src="./img/star-solid.svg" alt=""><img class="icon" src="./img/star-regular.svg" alt=""> 
-                TRUSTPILOT RATING</p>
-            <h1> <a href="">OQIUM</a> </h1> 
-            <ul>
-                <li><a href="">APPAREL</a> </li>
-                <li><a href="">FOOTWEAR</a> </li>
-                <li><a href="">PERFORMANCE</a> </li>
-                <li><a href="">ACCESSOIRES</a> </li>
-                <li><a href="">NBA</a> </li>
-                <li><a href="">BLOG</a> </li>
-                <li><a href="">RAFFLES</a> </li>
-                <li><a href="">BRANDS</a> </li>
-              </ul>
-        </nav>
+        <div id="nav-placeholder"></div>
     </header>
+
     <main>
       <button>? Support</button>
       <img src="" alt="Sliding pictures" />

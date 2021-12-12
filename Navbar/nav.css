@@ -1,0 +1,42 @@
+/* NAVBAR */
+nav {
+  margin-bottom: 1em;
+}
+nav p {
+  font-size: 0.7em;
+}
+nav h1 {
+  padding: 0.3em 0;
+  font-weight: bolder;
+  font-size: 3em;
+}
+nav ul {
+  line-height: 2em;
+  display: grid;
+  grid-template-columns: repeat(10, 9.5vw);
+}
+nav li {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+nav a:hover {
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
+}
+nav h1 a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+@media only screen and (max-width: 1300px) {
+  nav ul {
+    grid-template-columns: repeat(5, 16vw);
+    grid-template-rows: repeat(2, 3em);
+  }
+}
+@media only screen and (max-width: 700px) {
+  nav ul {
+    grid-template-columns: repeat(3, 26vw);
+    grid-template-rows: repeat(3, 3em);
+  }
+}
