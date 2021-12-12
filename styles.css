@@ -1,4 +1,50 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  width: 80vw;
+  margin: 1em auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.icon {
+  width: 1em;
+}
+/* navbar */
+nav {
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+nav p {
+  font-size: 0.7em;
+}
+nav h1 {
+  padding: 0.3em 0;
+  font-weight: bolder;
+  font-size: 3em;
+}
+nav ul {
+  line-height: 2em;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 700;
+  width: 10vw;
+}
+nav li:first-child {
+  width: 5vw;
+  text-align: left;
+}
+nav a:hover {
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
+}
+nav h1 a:hover {
+  border-bottom: 1px solid #fff;
 }
