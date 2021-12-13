@@ -16,12 +16,6 @@
     />
     <link rel="stylesheet" href="./Navbar/nav.css">
     <title>Oqium</title>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        $(function(){
-          $("#nav-placeholder").load("./Navbar/nav.html");
-        });
-        </script>  
 </head>
   <body>
     <header>
@@ -29,13 +23,21 @@
     </header>
 
     <main>
+        <!-- Support Button -->
         <a href="" class="support">
             <button> 
                 <img class="icon2" src="./img/question-circle-regular.svg" alt=""> 
                 Support
             </button>
         </a>
-      <img src="" alt="Sliding pictures" />
+
+        <!-- Slideshow -->
+        <div class="slideshow">
+            <img class="mySlides fade" src="./img/img1.jpg">
+            <img class="mySlides fade" src="./img/img2.jpg">
+            <img class="mySlides fade" src="./img/img3.jpg">
+        </div>
+
       <div>
         <img src="" alt="" />
         <img src="" alt="" />
@@ -200,5 +202,31 @@
         <img src="" alt="">
         <img src="" alt="">
     </footer>
+
+    <!-- Navbar -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("./Navbar/nav.html");
+        });
+    </script>  
+
+    <!-- Slideshow -->
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+    </script>
   </body>
 </html>

@@ -35,3 +35,25 @@ a {
   padding-right: 0.5em;
   float: left;
 }
+
+/* SLIDESHOW*/
+.slideshow {
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+  width: 100%;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
