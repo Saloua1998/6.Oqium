@@ -57,3 +57,33 @@ a {
     opacity: 1;
   }
 }
+
+/* SECTION 2 */
+.section2 {
+  display: grid;
+  grid-template-rows: repeat(2, 45vh);
+  grid-template-columns: repeat(3, calc(20vw - 0.5em));
+  gap: 0.5em;
+  margin-top: 1em;
+}
+.img-box {
+  position: relative;
+  font-weight: bold;
+}
+.img-box img {
+  height: 100%;
+  width: 100%;
+}
+.img-box:nth-child(3) {
+  height: calc(90vh + 0.5em);
+  width: 40vw;
+}
+.img-box span {
+  position: absolute;
+  bottom: 1em;
+  /* left: 40%; */
+  /* text-align: center; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
