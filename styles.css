@@ -60,11 +60,14 @@ a {
 
 /* SECTION 2 */
 .section2 {
+  margin-top: 1em;
+}
+.section2 div {
   display: grid;
   grid-template-rows: repeat(2, 45vh);
-  grid-template-columns: repeat(3, calc(20vw - 0.5em));
+  grid-template-columns: repeat(2, calc(20vw - 0.5em));
   gap: 0.5em;
-  margin-top: 1em;
+  float: left;
 }
 .img-box {
   position: relative;
@@ -74,16 +77,49 @@ a {
   height: 100%;
   width: 100%;
 }
-.img-box:nth-child(3) {
+.img-box2 img {
   height: calc(90vh + 0.5em);
   width: 40vw;
+  float: right;
 }
 .img-box span {
   position: absolute;
   bottom: 1em;
-  /* left: 40%; */
-  /* text-align: center; */
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    background-color: rgb(255, 200, 255);
+  }
+  /* SECTION 2 */
+  .section2 div {
+    grid-template-columns: repeat(2, calc(40vw - 0.25em));
+  }
+  .img-box2 img {
+    height: 80vh;
+    width: 80vw;
+    margin-top: 0.5em;
+    float: none;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) {
+  body {
+    background-color: rgb(200, 255, 255);
+  }
+  /* SECTION 2 */
+  .section2 div {
+    grid-template-columns: repeat(2, calc(40vw - 0.25em));
+  }
+  .img-box2 img {
+    height: 80vh;
+    width: 80vw;
+    margin-top: 0.5em;
+    float: none;
+  }
 }
