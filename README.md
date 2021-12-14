@@ -1,6 +1,6 @@
 # Oqium
 
-# Time Spend(5H)
+# Time Spend(7H)
 
 # Description
 

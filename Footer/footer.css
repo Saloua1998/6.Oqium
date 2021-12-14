@@ -1,0 +1,19 @@
+.footer1 {
+  background-color: rgb(240, 240, 240);
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  padding: 2em 10vw;
+  display: flex;
+}
+.footer1 ul {
+  width: 26.67vw;
+  list-style: none;
+}
+.footer1 ul label {
+  font-weight: bold;
+}
+.footer1 li {
+  font-size: 0.9em;
+  color: rgb(50, 50, 50);
+}
