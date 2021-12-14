@@ -14,9 +14,8 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(10, 9.5vw);
 }
-nav li {
-  display: inline-block;
-  font-weight: 700;
+nav a {
+  font-size: 0.9em;
 }
 nav a:hover {
   border-bottom: 1px solid #000;
@@ -24,6 +23,28 @@ nav a:hover {
 }
 nav h1 a:hover {
   border-bottom: 1px solid #fff;
+}
+.dropdown {
+  display: inline-block;
+  font-weight: 700;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #333;
+  font-weight: normal;
+  padding: 0.2em 1.5em;
+  display: block;
+  border-bottom: #aaa 1px solid;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 @media only screen and (max-width: 1300px) {

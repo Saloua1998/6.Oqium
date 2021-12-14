@@ -1,4 +1,4 @@
-.footer1 {
+footer {
   background-color: rgb(240, 240, 240);
   width: 100vw;
   position: absolute;
@@ -6,14 +6,14 @@
   padding: 2em 10vw;
   display: flex;
 }
-.footer1 ul {
+footer ul {
   width: 26.67vw;
   list-style: none;
 }
-.footer1 ul label {
+footer ul label {
   font-weight: bold;
 }
-.footer1 li {
+footer li {
   font-size: 0.9em;
   color: rgb(50, 50, 50);
 }
