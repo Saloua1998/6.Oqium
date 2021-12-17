@@ -1,6 +1,6 @@
 # Oqium
 
-# Time Spend(8H)
+# Time Spend(10H)
 
 # Description
 
@@ -34,6 +34,7 @@ Open Home to start app (If that doesn't work Open it with Live Server)
 
 # Learned:
 
+- How to design the scrollbar
 - A New way to add a html file into another html file(I used it for navbar)
 - How to make a automated slideshow (or at least understand the code of it)
 

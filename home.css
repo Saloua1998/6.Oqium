@@ -38,9 +38,6 @@
 }
 
 /* SECTION 2 */
-.section2 {
-  margin-top: 1em;
-}
 .section2 div {
   display: grid;
   grid-template-rows: repeat(2, 45vh);
@@ -149,7 +146,6 @@
 /* SECTION 6 */
 .section6 {
   text-align: center;
-  margin-top: 1em;
 }
 .section6 h2 {
   margin: 0.5em;
@@ -224,9 +220,6 @@
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  body {
-    background-color: rgb(255, 200, 255);
-  }
   /* SECTION 2 */
   .section2 div {
     grid-template-columns: repeat(2, calc(40vw - 0.25em));
@@ -259,9 +252,6 @@
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1199px) {
-  body {
-    background-color: rgb(200, 255, 255);
-  }
   /* SECTION 2 */
   .section2 div {
     grid-template-columns: repeat(2, calc(40vw - 0.25em));

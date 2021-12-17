@@ -1,10 +1,181 @@
 h2 {
   margin: 0.5em 0;
 }
+h3 {
+  font-size: 0.9em;
+}
 span {
   font-size: 0.8em;
   color: rgb(100, 100, 100);
 }
-section {
-  margin-top: 1em;
+hr {
+  margin: 1em 0;
+  height: 0.1px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(200, 200, 200);
+  color: rgb(200, 200, 200);
+}
+
+/* SECTION 2 */
+.section2 {
+  width: 10em;
+  border: 1px solid black;
+}
+.section2 div {
+  padding: 0.5em;
+}
+.section2 h3 {
+  margin-bottom: 0.5em;
+}
+.section2 ul {
+  max-height: 15em;
+  overflow-x: auto;
+}
+.section2 li {
+  list-style: none;
+  font-size: 0.85em;
+  line-height: 1.6em;
+  color: rgb(100, 100, 100);
+}
+.section2 input {
+  background-color: grey;
+  color: #555;
+}
+/* COLORS */
+.section2 .colors h3 {
+  width: 100%;
+}
+.section2 .colors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.section2 .colors div:nth-child(2) {
+  width: 1em;
+  height: 1em;
+  background-color: black;
+  border-radius: 50%;
+  border: 5px white double;
+}
+.section2 .colors div:nth-child(3) {
+  width: 1em;
+  height: 1em;
+  background-color: rgb(51, 204, 255);
+  border-radius: 50%;
+  border: 5px white double;
+}
+.section2 .colors div:nth-child(4) {
+  width: 1em;
+  height: 1em;
+  background-color: rgb(153, 102, 51);
+  border-radius: 50%;
+  border: 5px white double;
+}
+.section2 .colors div:nth-child(5) {
+  width: 1em;
+  height: 1em;
+  background-color: rgb(102, 204, 102);
+  border-radius: 50%;
+  border: 5px white double;
+}
+.section2 .colors div:nth-child(5) {
+  width: 1em;
+  height: 1em;
+  background-color: grey;
+  border-radius: 50%;
+  border: 5px white double;
+}
+.section2 .colors div:nth-child(5) {
+  width: 1em;
+  height: 1em;
+  background-size: 4em;
+  background-image: url(https://cdn.shopify.com/s/files/1/0039/0096/4953/files/achtergrond-met-achtergrond-met-kleurovergang_1159-5356.jpg?v=1591364387);
+  border-radius: 50%;
+  border: 5px white double;
+}
+.section2 .colors div:nth-child(6) {
+  width: 1em;
+  height: 1em;
+  background-color: rgb(255, 153, 51);
+  border-radius: 50%;
+  border: 5px white double;
+}
+.section2 .colors div:nth-child(7) {
+  width: 1em;
+  height: 1em;
+  background-color: rgb(255, 102, 204);
+  border-radius: 50%;
+  border: 5px white double;
+}
+.section2 .colors div:nth-child(8) {
+  width: 1em;
+  height: 1em;
+  background-color: rgb(153, 102, 204);
+  border-radius: 50%;
+  border: 5px white double;
+}
+.section2 .colors div:nth-child(9) {
+  width: 1em;
+  height: 1em;
+  background-color: rgb(255, 51, 51);
+  border-radius: 50%;
+  border: 5px white double;
+}
+.section2 .colors div:nth-child(10) {
+  width: 1em;
+  height: 1em;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px black double;
+}
+.section2 .colors div:nth-child(11) {
+  width: 1em;
+  height: 1em;
+  background-color: rgb(255, 255, 102);
+  border-radius: 50%;
+  border: 4px white double;
+}
+
+/* Checkboxes */
+.checkbox {
+  width: 100%;
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+}
+.checkbox > span {
+  padding-left: 0.3em;
+}
+.checkbox > input {
+  height: 1.5em;
+  width: 1.5em;
+  appearance: none;
+  border: 1px solid gray;
+  background-color: #fff;
+  cursor: pointer;
+}
+.checkbox > input:checked + span::before {
+  content: "\2714";
+  display: block;
+  text-align: center;
+  position: absolute;
+  font-size: 1.4em;
+  left: 0.2rem;
+}
+
+/* SCROLLBAR */
+.section2 ::-webkit-scrollbar {
+  width: 5px;
+}
+.section2 ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 1em;
+}
+.section2 ::-webkit-scrollbar-thumb {
+  background: #888888;
+  border-radius: 1em;
+}
+.section2 ::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
