@@ -1,10 +1,34 @@
 # Oqium
 
-# Time Spend(7H)
+# Time Spend(8H)
 
 # Description
 
 This is a replica of the website Oqium.com. I made this website to learn Basic CSS Positioning en Display.
+Since the original website is very big and has many pages I only made a few pages to learn different layouts.
+These replicated pages are:
+
+- Home Screen X
+- All Apparel page
+- Blog Home Screen
+- Blog article
+- Brands Page
+- Reference To Instagram pages X
+
+Footer
+
+- Contact Us
+- Oqium Amsterdam
+- Oqium Rotterdam
+- Working @ Oqium
+- Our Story
+- Reviews
+- Blog
+
+- Payment Options
+- Returns and Service
+- Partner Program
+- All The Policy Pages
 
 Open Home to start app (If that doesn't work Open it with Live Server)
 
