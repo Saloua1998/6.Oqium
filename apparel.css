@@ -9,7 +9,7 @@ span {
   color: rgb(100, 100, 100);
 }
 hr {
-  margin: 1em 0;
+  margin: 0.5em 0;
   height: 0.1px;
   border-radius: 50%;
   border: none;
@@ -20,7 +20,9 @@ hr {
 /* SECTION 2 */
 .section2 {
   width: 10em;
-  border: 1px solid black;
+  font-size: 0.85em;
+  margin-right: 2em;
+  height: 100%;
 }
 .section2 div {
   padding: 0.5em;
@@ -34,7 +36,6 @@ hr {
 }
 .section2 li {
   list-style: none;
-  font-size: 0.85em;
   line-height: 1.6em;
   color: rgb(100, 100, 100);
 }
@@ -42,7 +43,29 @@ hr {
   background-color: grey;
   color: #555;
 }
-/* COLORS */
+.section2 .price span {
+  border: gray 1px solid;
+  padding: 0.5em 1.15em;
+}
+.slider {
+  width: 100%;
+}
+
+.collapsible {
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  /* outline: none; */
+}
+.content {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: inherit;
+}
+/* SECTION2 COLORS */
 .section2 .colors h3 {
   width: 100%;
 }
