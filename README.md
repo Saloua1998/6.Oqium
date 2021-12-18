@@ -21,7 +21,7 @@ Footer
 - Oqium Amsterdam
 - Oqium Rotterdam
 - Working @ Oqium
-- Our Story
+- Our Story X
 - Reviews
 - Blog
 
