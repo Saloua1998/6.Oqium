@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./img/favicon_oqium.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./Navbar/nav.css" />
+    <link rel="stylesheet" href="./Footer/footer.css" />
+    <title>Oqium</title>
+
+    <style>
+      footer {
+        margin-top: 2em;
+      }
+      .content {
+        font-size: 0.9em;
+        line-height: 2em;
+      }
+      .content h1 {
+        margin: 1em 0;
+      }
+      .content h2 {
+        margin-top: 1em;
+      }
+      .content p {
+        color: rgb(80, 80, 80);
+      }
+
+      .section1 img {
+        width: 100%;
+      }
+      .section2 h2 {
+        font-size: 2em;
+      }
+      .section2 h3 {
+        font-size: 1em;
+      }
+      .section2 p {
+        width: 13em;
+      }
+      .section2 span {
+        float: right;
+      }
+      .section4 iframe {
+        margin-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="nav-placeholder"></div>
+    </header>
+
+    <main>
+      <div class="content">
+        <section class="section1">
+          <h1>OQIUM Rotterdam</h1>
+          <img src="./img/img44.jpg" alt="" />
+        </section>
+
+        <section class="section2">
+          <h2>Rotterdam</h2>
+          <h3>Opening Hours</h3>
+          <p>
+            Monday <span>12:00 – 18:00</span> <br />
+            Tuesday <span>12:00 – 18:00</span> <br />
+            Wednesday <span>12:00 – 18:00</span> <br />
+            Thursday <span>12:00 – 18:00</span> <br />
+            Friday <span>12:00 – 18:00</span> <br />
+            Saturday <span>12:00 – 18:00</span> <br />
+            Sunday <span>12:00 – 18:00</span> <br />
+          </p>
+        </section>
+
+        <section class="section3">
+          <h2>Contact</h2>
+          <p>
+            customerservice@oqium.com <br />
+            0031104131633
+          </p>
+        </section>
+
+        <section class="section4">
+          <h2>Adress</h2>
+          <p>
+            Korte Lijnbaan 10 <br />
+            Rotterdam, 3012ED Netherlands <br />
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d78741.2007731145!2d4.475518!3d51.921868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc77304ab9b6e5756!2sOqium!5e0!3m2!1snl!2snl!4v1639908112622!5m2!1snl!2snl"
+            width="350"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </section>
+
+        <!-- Support Button -->
+        <a href="" class="support">
+          <button>
+            <img class="icon2" src="./img/question-circle-regular.svg" alt="" />
+            Support
+          </button>
+        </a>
+      </div>
+
+      <div id="footer-placeholder"></div>
+    </main>
+
+    <!-- Navbar -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("./Navbar/nav.html");
+      });
+    </script>
+
+    <!-- Footer -->
+    <script>
+      $(function () {
+        $("#footer-placeholder").load("./Footer/Footer.html");
+      });
+    </script>
+  </body>
+</html>
