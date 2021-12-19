@@ -1,6 +1,6 @@
 # Oqium
 
-# Time Spend(11H)
+# Time Spend(12H)
 
 # Description
 
@@ -18,7 +18,7 @@ These replicated pages are:
 Footer
 
 - Contact Us
-- Oqium Amsterdam
+- Oqium Amsterdam X
 - Oqium Rotterdam
 - Working @ Oqium
 - Our Story X
@@ -26,8 +26,9 @@ Footer
 - Blog
 
 - Payment Options
-- Returns and Service
-- Partner Program
+- Returns and Service X
+- Partner Program X
+
 - All The Policy Pages
 
 Open Home to start app (If that doesn't work Open it with Live Server)
@@ -35,6 +36,7 @@ Open Home to start app (If that doesn't work Open it with Live Server)
 # Learned:
 
 - How to design the scrollbar
+- How to embed a specific adress on google maps
 - A New way to add a html file into another html file(I used it for navbar)
 - How to make a automated slideshow (or at least understand the code of it)
 
