@@ -19,17 +19,20 @@ Footer
 
 - Contact Us
 - Oqium Amsterdam X
-- Oqium Rotterdam
+- Oqium Rotterdam X
 - Working @ Oqium
 - Our Story X
 - Reviews
 - Blog
 
-- Payment Options
+- Payment Options X
 - Returns and Service X
 - Partner Program X
 
-- All The Policy Pages
+- Privacy Policy
+- Refund Policy
+- Terms & Conditions
+- MVO Statement and Guidelines
 
 Open Home to start app (If that doesn't work Open it with Live Server)
 
