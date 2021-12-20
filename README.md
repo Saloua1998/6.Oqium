@@ -30,9 +30,9 @@ Footer
 - Partner Program X
 
 - Privacy Policy
-- Refund Policy
+- Refund Policy X
 - Terms & Conditions
-- MVO Statement and Guidelines
+- MVO Statement and Guidelines X
 
 Open Home to start app (If that doesn't work Open it with Live Server)
 
