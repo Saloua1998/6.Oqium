@@ -1,6 +1,6 @@
 # Oqium
 
-# Time Spend(12H)
+# Time Spend(13H)
 
 # Description
 
@@ -27,7 +27,7 @@ Footer
 - Blog - WOENSDAG
 
 - Payment Options X
-- Shipping & Delivery - WOENSDAG
+- Shipping & Delivery X
 - Returns and Service X
 - Partner Program X
 
