@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./img/favicon_oqium.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./Navbar/nav.css" />
+    <link rel="stylesheet" href="./Footer/footer.css" />
+    <title>Oqium</title>
+
+    <style>
+      footer {
+        margin-top: 2em;
+      }
+      .content {
+        font-size: 0.85em;
+        line-height: 1.5em;
+        margin: 0 auto;
+      }
+      .content h1 {
+        font-size: 1.4em;
+        margin: 1em 0;
+      }
+      section img {
+        width: 30%;
+      }
+      section:first-of-type {
+        padding-bottom: 1em;
+        border-bottom: 1px rgb(218, 218, 218) solid;
+      }
+      section:nth-of-type(2) {
+        padding-top: 1em;
+      }
+      section div {
+        width: 65%;
+        float: right;
+        line-height: 2em;
+      }
+      p {
+        color: rgb(150, 150, 150);
+        margin: 0.5em 0;
+      }
+      button {
+        border: 1 solid black;
+        background-color: white;
+        padding: 0.5em 2em;
+        margin: 1em 0;
+        font-weight: bold;
+      }
+
+      /* Landscape phone to portrait tablet */
+      @media (max-width: 767px) {
+        section img {
+          width: 100%;
+          height: 90vh;
+        }
+        section:first-of-type {
+          height: 100%;
+          padding-bottom: 1em;
+          border-bottom: 1px rgb(218, 218, 218) solid;
+        }
+        section:nth-of-type(2) {
+          padding-top: 1em;
+        }
+        section div {
+          width: 100%;
+        }
+        footer {
+          margin-top: 18em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="nav-placeholder"></div>
+    </header>
+
+    <main>
+      <div class="content">
+        <h1>BLOG</h1>
+        <section>
+          <img src="./img/img45.jpg" alt="" />
+          <div>
+            <h2>Nike Roswell Rayguns</h2>
+            <p>on January 21, 2021</p>
+            The Rayguns colorway originally released in 2005, and has returned
+            this year on the Nike Air Force 1. The colors are based on Nike's
+            fictional basketball team, the Roswell Rayguns, that they created
+            for an ad campaign in the early 2000's. The collection includes a
+            Roswell Rayguns clothing line. <br />
+            <button>READ MORE</button>
+          </div>
+        </section>
+
+        <section>
+          <img src="./img/img46.jpg" alt="" />
+          <div>
+            <h2>Alife New York</h2>
+            <p>on January 11, 2021</p>
+            WE WELCOME ALIFE TO OUR COLLECTION! We welcome New York based brand
+            Alife to our collection! Focusing on art and creativity, Alife
+            showcases the downtown culture from which it is born. Alife is art.
+            The fall/winter 20 collection includes bold pieces that combines
+            workwear, fishing, rugby and real New York energy. Models: Mosey &
+            Jo Photographed by: Amber Aarts <br />
+            <button>READ MORE</button>
+          </div>
+        </section>
+
+        <!-- Support Button -->
+        <a href="" class="support">
+          <button>
+            <img class="icon2" src="./img/question-circle-regular.svg" alt="" />
+            Support
+          </button>
+        </a>
+      </div>
+      <div id="footer-placeholder"></div>
+    </main>
+
+    <!-- Navbar -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("./Navbar/nav.html");
+      });
+    </script>
+
+    <!-- Footer -->
+    <script>
+      $(function () {
+        $("#footer-placeholder").load("./Footer/Footer.html");
+      });
+    </script>
+  </body>
+</html>

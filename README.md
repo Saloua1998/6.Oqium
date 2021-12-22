@@ -21,7 +21,7 @@ Footer
 - Contact Us X
 - Oqium Amsterdam X
 - Oqium Rotterdam X
-- Working @ Oqium - WOENSDAG
+- Working @ Oqium X
 - Our Story X
 - Reviews - DONDERDAG
 - Blog - WOENSDAG

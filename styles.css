@@ -67,7 +67,7 @@ section {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
-    background-color: rgb(255, 200, 255);
+    /* background-color: rgb(255, 200, 255); */
   }
 }
 
