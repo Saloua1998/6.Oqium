@@ -18,12 +18,12 @@ These replicated pages are:
 
 Footer
 
-- Contact Us - WOENSDAG
+- Contact Us X
 - Oqium Amsterdam X
 - Oqium Rotterdam X
 - Working @ Oqium - WOENSDAG
 - Our Story X
-- Reviews
+- Reviews - DONDERDAG
 - Blog - WOENSDAG
 
 - Payment Options X
