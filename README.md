@@ -9,29 +9,31 @@ Since the original website is very big and has many pages I only made a few page
 These replicated pages are:
 
 - Home Screen X
-- All Apparel page
-- Blog Home Screen
-- Blog article
-- Brands Page
+- All Apparel page - DONDERDAG + VRIJDAG
+- Apparel Detail page - VRIJDAG
+- Blog Home Screen - VRIJDAG
+- Blog article - VRIJDAG
+- Brands Page - VRIJDAG
 - Reference To Instagram pages X
 
 Footer
 
-- Contact Us
+- Contact Us - WOENSDAG
 - Oqium Amsterdam X
 - Oqium Rotterdam X
-- Working @ Oqium
+- Working @ Oqium - WOENSDAG
 - Our Story X
 - Reviews
-- Blog
+- Blog - WOENSDAG
 
 - Payment Options X
+- Shipping & Delivery - WOENSDAG
 - Returns and Service X
 - Partner Program X
 
-- Privacy Policy
+- Privacy Policy X
 - Refund Policy X
-- Terms & Conditions
+- Terms & Conditions X
 - MVO Statement and Guidelines X
 
 Open Home to start app (If that doesn't work Open it with Live Server)
