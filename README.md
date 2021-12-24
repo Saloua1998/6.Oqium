@@ -24,7 +24,7 @@ Footer
 - Working @ Oqium X
 - Our Story X
 - Reviews - DONDERDAG
-- Blog - WOENSDAG
+- Blog X
 
 - Payment Options X
 - Shipping & Delivery X
