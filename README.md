@@ -23,7 +23,7 @@ Footer
 - Oqium Rotterdam X
 - Working @ Oqium X
 - Our Story X
-- Reviews - DONDERDAG
+- Reviews - X
 - Blog X
 
 - Payment Options X
