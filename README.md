@@ -1,6 +1,6 @@
 # Oqium
 
-# Time Spend(13H)
+# Time Spend(15H)
 
 # Description
 
@@ -9,11 +9,7 @@ Since the original website is very big and has many pages I only made a few page
 These replicated pages are:
 
 - Home Screen X
-- All Apparel page - DONDERDAG + VRIJDAG
-- Apparel Detail page - VRIJDAG
-- Blog Home Screen - VRIJDAG
-- Blog article - VRIJDAG
-- Brands Page - VRIJDAG
+- All Apparel page - X
 - Reference To Instagram pages X
 
 Footer
